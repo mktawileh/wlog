@@ -1,0 +1,15 @@
+{
+    "name": "waddlog",
+    "version": "0.0.0",
+    "description": "A simple cross-platform loggin CLI tool",
+    "main": "index.js",
+    "bin": {
+        "waddlog": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {},
+    "author": "Mohamed Tawileh",
+    "license": "MIT"
+}
