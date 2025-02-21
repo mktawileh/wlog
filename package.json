@@ -1,0 +1,24 @@
+{
+    "name": "worklogging",
+    "version": "0.0.2",
+    "description": "A simple cross-platform loggin CLI tool",
+    "main": "dist/main.js",
+    "bin": {
+        "wlog": "./dist/main.js"
+    },
+    "scripts": {
+        "start": "node dist/main.js",
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "author": "Mohamed Tawileh",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.12",
+        "@types/node": "^22.13.5",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "better-sqlite3": "^11.8.1"
+    }
+}
